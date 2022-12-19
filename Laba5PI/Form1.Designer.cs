@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.buttonVhod = new System.Windows.Forms.Button();
@@ -40,6 +39,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -57,6 +58,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.monthCalendar1);
@@ -72,15 +74,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Главная";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(776, 601);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(147, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Это Док, он Ваш помощник";
             // 
             // pictureBox1
             // 
@@ -152,6 +145,24 @@
             this.tabPage2.Text = "Данные";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(236, 558);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(315, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Если у Вас возникли вопрос по использованию приложения";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(285, 583);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(205, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "То обратитесь на наш сайт: DocProg.ru";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -182,6 +193,7 @@
         private System.Windows.Forms.Button buttonVhod;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
     }
 }
